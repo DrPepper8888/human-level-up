@@ -2,9 +2,9 @@
 
 ## [Metadata]
 - **Name**: Human-Level-Up (人类进化协议)
-- **Version**: 2.1.0
+- **Version**: 3.0.0
 - **Author**: Pejic
-- **Description**: 拒绝AI喂饭！反向认知协议。AI负责扫描并提取认知重点，你负责接受强制脑力突袭。只有通过测试，才能获得进化值。
+- **Description**: 拒绝AI喂饭！图灵测试反转协议。AI负责扫描并提取认知重点，你负责接受强制脑力突袭。只有通过测试，才能获得进化值。
 - **Trigger Words**:
   - "学到了什么"
   - "我能学到什么"
@@ -17,7 +17,7 @@
   - "重点"
   - "精华"
 - **Category**: Education / Productivity
-- **Tags**: ["Learning", "Gamification", "Cognitive-Science", "Anti-Lazy"]
+- **Tags**: ["Learning", "Gamification", "Cognitive-Science", "Anti-Lazy", "Turing"]
 
 ---
 
@@ -27,6 +27,7 @@
 - **Feedback Loop**: 工科驱动的纠错机制与进化值奖励
 - **Map Generation**: 自动解构内容并生成重点模块
 - **Evolution Points**: 量化学习成果，每次通过测试获得进化值
+- **Turing-Mode**: 倒转图灵测试 - 你来证明比AI更强
 
 ---
 
@@ -36,6 +37,7 @@
 3. AI 会输出重点模块列表，请选择一个模块开始
 4. 深度阅读 AI 给出的认知原子并迎接脑力突袭
 5. 答对获得进化值，答错接受再教育
+6. **终极目标**：在图灵测试中证明人类不比AI差
 
 ---
 
