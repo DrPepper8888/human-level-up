@@ -53,7 +53,7 @@ def generate_quiz(key_points: list, count: int = 3) -> dict:
             quizzes.append(generate_trap_question(kp.get("content", "")))
 
     if len(key_points) >= 2:
-        comp = generate_comprehensive_question([kp.get("content", "") for kp in key_points[:2]])
+        comp = generate_comprehensive_question([point.get("content", "") for point in key_points[:2]])
         if comp:
             quizzes.append(comp)
 

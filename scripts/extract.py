@@ -48,7 +48,16 @@ def process_file(file_path: str) -> dict:
     if not path.exists():
         return {"status": "error", "message": f"File not found: {file_path}"}
 
-    content = path.read_text(encoding='utf-8')
+    try:
+        content = path.read_text(encoding='utf-8')
+    except UnicodeDecodeError:
+        try:
+            content = path.read_text(encoding='gbk')
+        except:
+            return {"status": "error", "message": f"Encoding error: {file_path}"}
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
+
     return extract_key_points(content)
 
 if __name__ == "__main__":
